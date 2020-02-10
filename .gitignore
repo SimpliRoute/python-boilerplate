@@ -1,0 +1,8 @@
+.DS_Store
+.thumbs
+
+venv
+*.pyc
+__pycache__
+
+.vscode
