@@ -37,6 +37,16 @@ Run all application tests
 $ make documentation
 ```
 
-Generate updated  documentation and open it on MAC 
+Generate updated  documentation and open it on MAC
+
+##### Run test generating coverage report
+
+```bash
+$ make coverage
+```
+
+Run tests and generate coverage report
+
+ 
 
 
