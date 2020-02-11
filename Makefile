@@ -9,3 +9,6 @@ test:
 
 documentation:
 	./scripts/docs.sh
+
+coverage:
+	./scripts/test_coverage.sh
