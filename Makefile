@@ -6,3 +6,6 @@ update-deps:
 
 test:
 	./scripts/run_test.sh
+
+documentation:
+	./scripts/docs.sh

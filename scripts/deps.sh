@@ -1,4 +1,4 @@
 #!/bin/bash
 
-source ./venv/bin/activate
-pip freeze > requirements.txt
+source ./venv/bin/activate && \
+  pip freeze > requirements.txt
