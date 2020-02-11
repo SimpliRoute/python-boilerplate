@@ -7,19 +7,36 @@
 * virtualenv installed (associated with you py3 installation)
 * pip installed (associated with you py3 installation)
 
-
-#### First run instructions 
-```bash
-$ git clone git@github.com:SimpliRoute/python-boilerplate.git \ 
-    && cd python-boilerplate
-
-$ make init
-```
-
 #### Scripts included
 
-* Init
-* Update dependencies
-* Test
-* docs
+##### **Init**
+```bash
+$ make init
+```
+Initialize application creating respective virtualenv and installing all 
+dependencies form requirement txt. 
+
+##### Update dependencies
+```bash
+$ make update-deps
+```
+
+Update dependencies in requirements.txt file
+to future installs.
+
+##### Running Test
+```bash
+$ make test
+```
+
+Run all application tests
+ 
+##### Generate documentation
+
+```bash
+$ make documentation
+```
+
+Generate updated  documentation and open it on MAC 
+
 
