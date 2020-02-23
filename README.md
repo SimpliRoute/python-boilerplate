@@ -47,6 +47,14 @@ $ make coverage
 
 Run tests and generate coverage report
 
+### env variables
+This boilerplate comes with [python-dotenv](https://pypi.org/project/python-dotenv/) 
+as a dependency, env variables are declared and loaded from `settings.py` file,
+if you want to add new env vars just create a .env file on on the
+project root directory. 
+
+
+
  
 
 
