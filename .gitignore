@@ -1,11 +1,19 @@
+# File system
 .DS_Store
 .thumbs
 
+# Project setups
 venv
 *.pyc
 __pycache__
-
-.vscode
-
 .coverage
 .serverless
+.env
+
+# IDE
+.vscode
+.idea
+
+# Documentation files
+docs/build
+docs/source/src.*
